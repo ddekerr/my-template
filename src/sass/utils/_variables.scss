@@ -1,0 +1,26 @@
+// Default font settings ==============================================================================================================================================================================================================================================================================
+$fontFamily: "";
+$fontSize: rem(16); // where 14(px) - default font size from layout
+
+// Main colors ==============================================================================================================================================================================================================================================================================
+$mainColor: #000; // Default color
+
+// Adaptive grid config ===============================================================================================================================================================================================================================================================================================
+
+// Min site width
+$minWidth: 320;
+// Max layout width
+$maxWidth: 1920;
+// Container width (0 = without limit)
+$containerWidth: 1200;
+
+// Breakpoints
+$pc: em($containerWidth); // PC, laptops, some tablets in horizontal orientation
+$tablet: em(991.98); // Tablets, some phones in horizontal orientation
+$mobile: em(767.98); // Phone large
+$mobileSmall: em(479.98); // Phone small
+
+// Responsive type
+// 'true' - Responsive Design (container has no breakpoints)
+// something else - BreakPoints Design (container change width at breakpoints)
+$responsive: 'true';
